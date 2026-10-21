@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>68th Kerala State School Sports Meet 2026 — Games &amp; Athletics</title>
+<meta name="description" content="Official hub for the 68th Kerala State School Sports Meet 2026. Explore schedules for Games and Athletics competitions across Kerala." />
+<meta name="theme-color" content="#0d5c3a" />
+<meta property="og:title" content="68th Kerala State School Sports Meet 2026" />
+<meta property="og:description" content="Official hub for Games & Athletics schedules of the 68th Kerala State School Sports Meet 2026." />
+<meta property="og:type" content="website" />
+<style>
+/* ============================================================
+   68th KERALA STATE SCHOOL SPORTS MEET 2026 — LANDING PAGE
+   Single-file GitHub Pages site (no build step, no external deps)
+   ============================================================ */
+:root{
+  --green-900:#082017;
+  --green-800:#0a2a1c;
+  --green-700:#0d5c3a;
+  --green-600:#117a4d;
+  --green-500:#1a9b62;
+  --green-100:#dcefe2;
+  --green-050:#eef9f1;
+
+  --maroon-900:#3a0810;
+  --maroon-700:#8b1a2b;
+  --maroon-500:#b1283f;
+
+  --gold-700:#9a6b14;
+  --gold-500:#e8a317;
+  --gold-400:#f4c150;
+
+  --cream-50:#fcf9f0;
+  --cream-100:#f6efe0;
+  --cream-200:#ece0c8;
+
+  --ink-900:#0a1a14;
+  --ink-700:#243327;
+  --ink-500:#4a5a4e;
+  --ink-300:#7a8a7d;
+  --line:#d7d2bf;
+
+  --radius:18px;
+  --radius-sm:10px;
+  --shadow-sm:0 1px 2px rgba(10,26,20,.06), 0 1px 1px rgba(10,26,20,.04);
+  --shadow:0 6px 16px rgba(10,26,20,.08), 0 1px 3px rgba(10,26,20,.05);
+  --shadow-lg:0 22px 50px -12px rgba(10,26,20,.30), 0 4px 8px rgba(10,26,20,.06);
+  --container:1180px;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans Malayalam", sans-serif;
+  --font-display: "Georgia", "Times New Roman", "Noto Serif", serif;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:var(--font-body);
+  background:var(--cream-50);
+  color:var(--ink-900);
+  line-height:1.55;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  min-height:100vh;
+}
+a{color:var(--green-700);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.skip-link{
+  position:absolute;left:-9999px;top:0;
+  background:var(--green-700);color:#fff;padding:10px 14px;border-radius:0 0 8px 0;z-index:2000;
+}
+.skip-link:focus{left:0}
+
+/* ============ HERO ============ */
+.hero{
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(232,163,23,.18), transparent 60%),
+    radial-gradient(900px 500px at 10% 110%, rgba(177,40,63,.18), transparent 60%),
+    linear-gradient(160deg, var(--green-900) 0%, var(--green-700) 55%, var(--green-600) 100%);
+  color:#fff;
+  position:relative;
+  overflow:hidden;
+  padding:clamp(40px, 7vw, 80px) 0 clamp(40px, 7vw, 80px);
+}
+.hero::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.03) 0 1px, transparent 1px 14px);
+  mask-image: radial-gradient(circle at 50% 40%, #000 0%, transparent 75%);
+}
+.hero-inner{
+  max-width:var(--container);margin:0 auto;padding:0 20px;
+  position:relative;z-index:1;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;
+  color:var(--gold-400);
+  background:rgba(255,255,255,.08);padding:7px 14px;border-radius:999px;
+  border:1px solid rgba(255,255,255,.18);margin-bottom:18px;
+}
+.hero-eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--gold-400);box-shadow:0 0 12px var(--gold-400)}
+.hero h1{
+  font-family:var(--font-display);
+  font-size:clamp(36px, 7vw, 72px);
+  line-height:1.04;margin:0 0 18px;font-weight:700;letter-spacing:-.015em;
+  text-shadow:0 2px 14px rgba(0,0,0,.18);
+}
+.hero h1 .small{
+  display:block;font-size:.32em;font-weight:400;color:var(--gold-400);
+  letter-spacing:.16em;margin-bottom:10px;font-family:var(--font-body);text-transform:uppercase;
+}
+.hero-sub{
+  font-size:clamp(16px, 1.7vw, 19px);max-width:780px;color:rgba(255,255,255,.92);margin:0 0 32px;
+}
+
+/* Brand block (logo + mascot) */
+.brand-row{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:24px;
+}
+.brand-logo{
+  height:54px;width:auto;flex-shrink:0;
+  background:#fff;padding:6px 10px;border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+.brand-mascot{
+  height:96px;width:auto;flex-shrink:0;
+  border-radius:12px;
+  box-shadow:0 4px 14px rgba(0,0,0,.20);
+  border:2px solid rgba(255,255,255,.25);
+}
+.brand-text{display:flex;flex-direction:column;gap:2px}
+.brand-text .brand-line1{font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--gold-400);text-transform:uppercase}
+.brand-text .brand-line2{font-size:18px;font-weight:700;color:#fff;font-family:var(--font-display)}
+.hero-meta{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;
+}
+.hero-meta .card{
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);
+  border-radius:14px;padding:14px 16px;backdrop-filter:blur(8px);
+  display:flex;flex-direction:column;gap:4px;
+}
+.hero-meta .card .label{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:rgba(255,255,255,.7);font-weight:600}
+.hero-meta .card .value{font-size:17px;font-weight:600;color:#fff;line-height:1.3}
+.hero-meta .card .sub{font-size:12px;color:rgba(255,255,255,.7)}
+
+/* ============ MAIN SECTION ============ */
+.section{max-width:var(--container);margin:0 auto;padding:clamp(40px, 5vw, 60px) 20px}
+.section-tight{padding-top:0}
+.section-intro{
+  max-width:780px;margin:0 auto 36px;text-align:center;
+}
+.section-intro h2{
+  font-family:var(--font-display);
+  font-size:clamp(24px, 3.4vw, 36px);margin:0 0 12px;color:var(--green-900);font-weight:700;
+  letter-spacing:-.01em;
+}
+.section-intro p{
+  font-size:clamp(15px, 1.5vw, 17px);color:var(--ink-700);line-height:1.65;margin:0;
+}
+
+/* ============ CARD GRID ============ */
+.card-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:28px;
+  max-width:980px;margin:0 auto;
+}
+.nav-card{
+  position:relative;overflow:hidden;border-radius:var(--radius);
+  text-decoration:none;color:inherit;display:flex;flex-direction:column;
+  min-height:420px;isolation:isolate;
+  box-shadow:var(--shadow);border:1px solid var(--line);
+  background:#fff;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.nav-card:hover{
+  transform:translateY(-6px);
+  box-shadow:var(--shadow-lg);
+  text-decoration:none;
+}
+.nav-card:focus-visible{outline:3px solid var(--gold-500);outline-offset:4px}
+
+.nav-card .banner{
+  position:relative;padding:32px 28px 26px;color:#fff;overflow:hidden;
+  display:flex;align-items:flex-end;min-height:220px;
+}
+.nav-card .banner::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.04) 0 1px, transparent 1px 16px);
+}
+.nav-card .banner svg.bg-icon{
+  position:absolute;top:-20px;right:-20px;width:220px;height:220px;opacity:.14;
+  pointer-events:none;
+}
+.nav-card .banner-athletics{
+  background:linear-gradient(135deg, var(--green-700) 0%, var(--green-600) 55%, var(--green-500) 100%);
+}
+.nav-card .banner-games{
+  background:linear-gradient(135deg, var(--maroon-900) 0%, var(--maroon-700) 55%, var(--maroon-500) 100%);
+}
+.nav-card .banner-inner{position:relative;z-index:1;display:flex;flex-direction:column;gap:8px}
+.nav-card .banner .label{
+  font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+  color:rgba(255,255,255,.78);
+  display:inline-flex;align-items:center;gap:6px;
+}
+.nav-card .banner .label .pill{
+  background:rgba(255,255,255,.18);padding:2px 8px;border-radius:999px;
+  color:#fff;font-size:10px;
+}
+.nav-card .banner h3{
+  font-family:var(--font-display);font-size:clamp(28px,3vw,38px);margin:0;line-height:1.05;font-weight:700;
+  text-shadow:0 2px 10px rgba(0,0,0,.18);
+}
+.nav-card .banner .tag-line{
+  font-size:14px;color:rgba(255,255,255,.85);margin-top:4px;
+}
+
+.nav-card .body{
+  padding:24px 28px 26px;display:flex;flex-direction:column;gap:14px;flex:1;
+}
+.nav-card .body p{margin:0;color:var(--ink-700);font-size:14.5px;line-height:1.6}
+.nav-card .body ul{
+  list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;
+}
+.nav-card .body ul li{
+  display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--ink-700);line-height:1.5;
+}
+.nav-card .body ul li svg{
+  flex:0 0 16px;width:16px;height:16px;color:var(--green-600);margin-top:2px;
+}
+
+.nav-card .status-row{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);
+}
+.status-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  padding:4px 10px;border-radius:999px;
+}
+.status-live{background:var(--green-050);color:var(--green-700);border:1px solid var(--green-100)}
+.status-soon{background:#fff5d8;color:var(--gold-700);border:1px solid var(--gold-400)}
+.status-badge .live-dot{
+  width:7px;height:7px;border-radius:50%;background:var(--green-500);
+  box-shadow:0 0 8px var(--green-500);animation:pulse 1.8s infinite;
+}
+@keyframes pulse{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.5;transform:scale(1.3)}
+}
+.cta-link{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:14px;font-weight:700;color:var(--green-700);
+}
+.cta-link svg{width:14px;height:14px;transition:transform .2s ease}
+.nav-card:hover .cta-link svg{transform:translateX(4px)}
+.nav-card.card-games .cta-link{color:var(--maroon-700)}
+
+/* ============ MASCOT CALLOUT ============ */
+.mascot-callout{
+  display:flex;align-items:center;gap:24px;flex-wrap:wrap;justify-content:center;
+  background:linear-gradient(135deg, #fff 0%, var(--cream-100) 100%);
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px 28px;margin:32px 0 0;box-shadow:var(--shadow-sm);position:relative;overflow:hidden;
+}
+.mascot-callout::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg, var(--maroon-700), var(--gold-500), var(--green-700));
+}
+.mascot-callout .mascot-img{
+  height:140px;width:auto;flex-shrink:0;border-radius:14px;
+  box-shadow:0 4px 14px rgba(10,26,20,.18);
+}
+.mascot-callout .mascot-text{flex:1;min-width:280px;max-width:640px}
+.mascot-callout .mascot-tag{
+  display:inline-block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--maroon-700);background:var(--maroon-050);padding:4px 10px;border-radius:999px;margin-bottom:8px;
+}
+.mascot-callout h3{
+  font-family:var(--font-display);font-size:24px;margin:0 0 8px;color:var(--green-900);font-weight:700;letter-spacing:-.01em;
+}
+.mascot-callout p{margin:0;font-size:14.5px;color:var(--ink-700);line-height:1.6}
+.mascot-callout .mascot-logo{
+  height:60px;width:auto;flex-shrink:0;
+}
+@media (max-width:640px){
+  .mascot-callout{flex-direction:column;text-align:center;gap:16px;padding:20px}
+  .mascot-callout .mascot-text{max-width:none}
+}
+
+/* ============ INFO STRIP ============ */
+.info-strip{
+  background:linear-gradient(135deg, var(--cream-100) 0%, #fff 100%);
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px 28px;margin-top:48px;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;
+}
+.info-cell{display:flex;align-items:flex-start;gap:12px}
+.info-cell .icon{
+  flex:0 0 40px;width:40px;height:40px;border-radius:10px;
+  display:grid;place-items:center;
+  background:var(--green-050);color:var(--green-700);
+}
+.info-cell .icon svg{width:22px;height:22px}
+.info-cell .text .label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-500);font-weight:600;margin-bottom:2px}
+.info-cell .text .value{font-size:14px;color:var(--ink-900);font-weight:600;line-height:1.4}
+.info-cell .text .value strong{color:var(--maroon-700)}
+
+/* ============ FOOTER ============ */
+.site-footer{
+  background:var(--green-900);color:rgba(255,255,255,.78);margin-top:48px;padding:36px 0 24px;
+}
+.site-footer-inner{max-width:var(--container);margin:0 auto;padding:0 20px}
+.site-footer h4{color:#fff;margin:0 0 8px;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+.site-footer p{margin:0 0 6px;font-size:13px;line-height:1.6}
+.site-footer a{color:var(--gold-400)}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;margin-bottom:24px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:12px;color:rgba(255,255,255,.55);text-align:center}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:640px){
+  .card-grid{grid-template-columns:1fr;gap:18px}
+  .nav-card{min-height:340px}
+  .nav-card .banner{min-height:180px;padding:24px 22px 22px}
+  .nav-card .body{padding:20px 22px 22px}
+  .info-strip{padding:20px;gap:16px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand-row">
+      <img src="logo.png" alt="Kerala School Sports & Games logo" class="brand-logo" height="54" />
+      <img src="mascot.png" alt="KUTTU — Official mascot of the Kerala School Sports Meet" class="brand-mascot" height="96" />
+      <div class="brand-text">
+        <span class="brand-line1">Official mascot</span>
+        <span class="brand-line2">KUTTU the Elephant</span>
+      </div>
+    </div>
+    <span class="hero-eyebrow"><span class="dot"></span> Kerala State School Sports · 2026</span>
+    <h1>
+      <span class="small">68th Kerala State School Sports Meet</span>
+      Games &amp; Athletics Hub
+    </h1>
+    <p class="hero-sub">
+      Official competition hub for the 68th Kerala State School Sports Meet 2026.
+      Browse schedules, venues and order of events for both <strong>Games</strong> and
+      <strong>Athletics</strong> — happening across Kerala from 25 October to 31 October 2026.
+    </p>
+    <div class="hero-meta">
+      <div class="card">
+        <span class="label">State-level meet</span>
+        <span class="value">68th edition · 2026</span>
+        <span class="sub">Kerala State School Sports</span>
+      </div>
+      <div class="card">
+        <span class="label">Competition window</span>
+        <span class="value">27 – 31 Oct 2026</span>
+        <span class="sub">Registration & reporting 25–26 Oct</span>
+      </div>
+      <div class="card">
+        <span class="label">Athletics venue</span>
+        <span class="value">Maj. Dhyanchand Sports Complex</span>
+        <span class="sub">NIT, Kozhikode · Kerala</span>
+      </div>
+      <div class="card">
+        <span class="label">Categories</span>
+        <span class="value">Sub-Junior · Junior · Senior · Teachers</span>
+        <span class="sub">Boys &amp; Girls across all age groups</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== MAIN ===================== -->
+<main id="main">
+
+<section class="section">
+  <div class="section-intro">
+    <h2>Choose your competition</h2>
+    <p>
+      The 68th Kerala State School Sports Meet 2026 features two competition strands —
+      <strong>Games</strong> (inter-school tournaments across multiple venues) and
+      <strong>Athletics</strong> (track &amp; field events at the Maj. Dhyanchand Sports Complex,
+      NIT Kozhikode). Select a section below to view the complete schedule, day-by-day order
+      of events, and venue details.
+    </p>
+  </div>
+
+  <div class="card-grid">
+
+    <!-- ===================== GAMES CARD ===================== -->
+    <a href="games.html" class="nav-card card-games" aria-label="Open Games schedule">
+      <div class="banner banner-games">
+        <svg class="bg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4l12.8-12.8"/>
+        </svg>
+        <div class="banner-inner">
+          <span class="label">Section 1 · <span class="pill">Tournaments</span></span>
+          <h3>Games</h3>
+          <span class="tag-line">Inter-school tournaments &amp; matches across multiple venues in Kerala.</span>
+        </div>
+      </div>
+      <div class="body">
+        <p>
+          Schedule, fixtures and order of matches for all inter-school games being conducted
+          under the 68th Kerala State School Sports Meet 2026.
+        </p>
+        <ul>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span><strong>21 sports items</strong> across multiple venues in Kerala</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Filter by category, gender &amp; sport family · live search</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Malayalam source preserved + original PDF embedded</span>
+          </li>
+        </ul>
+        <div class="status-row">
+          <span class="status-badge status-live"><span class="live-dot"></span> Schedule live</span>
+          <span class="cta-link">
+            View Games
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- ===================== ATHLETICS CARD ===================== -->
+    <a href="athletics.html" class="nav-card card-athletics" aria-label="Open Athletics schedule">
+      <div class="banner banner-athletics">
+        <svg class="bg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 2L3 14h7l-1 8 11-12h-7l1-8z"/>
+        </svg>
+        <div class="banner-inner">
+          <span class="label">Section 2 · <span class="pill">Track &amp; Field</span></span>
+          <h3>Athletics</h3>
+          <span class="tag-line">Track, field, throws, jumps, relays, race walk &amp; cross country.</span>
+        </div>
+      </div>
+      <div class="body">
+        <p>
+          Complete order of events across 5 competition days (27 – 31 Oct 2026) at the
+          Maj. Dhyanchand Sports Complex, NIT Kozhikode.
+        </p>
+        <ul>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span><strong>186 events</strong> across 5 days · morning &amp; evening sessions</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Filter by category, gender &amp; event type · live search</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Including teachers' events &amp; cross country</span>
+          </li>
+        </ul>
+        <div class="status-row">
+          <span class="status-badge status-live"><span class="live-dot"></span> Schedule live</span>
+          <span class="cta-link">
+            View Athletics
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- ===================== MASCOT CALLOUT ===================== -->
+  <div class="mascot-callout">
+    <img src="mascot.png" alt="KUTTU — Official mascot of the 68th Kerala State School Sports Meet 2026" class="mascot-img" />
+    <div class="mascot-text">
+      <span class="mascot-tag">Official mascot · 2026</span>
+      <h3>Meet KUTTU the Elephant</h3>
+      <p>
+        Carrying the torch for the 68th Kerala State School Sports Meet 2026, KUTTU welcomes
+        athletes, officials and spectators across all competition venues — from the Maj. Dhyanchand
+        Sports Complex at NIT Kozhikode to inter-school game venues across Kerala.
+      </p>
+    </div>
+    <img src="logo.png" alt="Kerala School Sports & Games logo" class="mascot-logo" />
+  </div>
+
+  <!-- ===================== INFO STRIP ===================== -->
+  <div class="info-strip">
+    <div class="info-cell">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+      </div>
+      <div class="text">
+        <span class="label">Registration</span>
+        <span class="value"><strong>25 Oct 2026 · 2:00 PM</strong><br/>Player registration opens</span>
+      </div>
+    </div>
+    <div class="info-cell">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+      </div>
+      <div class="text">
+        <span class="label">Reporting</span>
+        <span class="value"><strong>26 Oct · 6:30 PM</strong><br/>Athletes report at venue</span>
+      </div>
+    </div>
+    <div class="info-cell">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.39 4.84 5.34.78-3.86 3.76.91 5.31L12 14.5l-4.78 2.51.91-5.31L4.27 7.62l5.34-.78z"/></svg>
+      </div>
+      <div class="text">
+        <span class="label">Valedictory</span>
+        <span class="value"><strong>31 Oct 2026 · 3:00 PM</strong><br/>Closing ceremony</span>
+      </div>
+    </div>
+    <div class="info-cell">
+      <div class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+      </div>
+      <div class="text">
+        <span class="label">Schedule version</span>
+        <span class="value"><strong>v1.0 · 19 Oct 2026</strong><br/>Subject to updates</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="footer-grid">
+      <div>
+        <h4>About the meet</h4>
+        <p>The 68th Kerala State School Sports Meet 2026 is the state-level inter-school sports championship for Kerala, featuring sub-junior (U-14), junior (U-17), senior (U-19) and teachers' categories across both Games and Athletics.</p>
+      </div>
+      <div>
+        <h4>Athletics venue</h4>
+        <p>Maj. Dhyanchand Sports Complex<br/>NIT, Kozhikode — 673601, Kerala</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <p><a href="games.html">Games schedule</a><br/><a href="athletics.html">Athletics schedule</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 · 68th Kerala State School Sports Meet · Hosted on GitHub Pages · Single-file static site
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
